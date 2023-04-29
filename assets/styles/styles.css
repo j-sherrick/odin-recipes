@@ -1,0 +1,40 @@
+body {
+  font: 1em Tahoma, Arial, sans-serif;
+  background-color: #FFCB80;
+}
+
+#page-container {
+  background-color: white;
+  max-width: 900px;
+  padding: 10px 50px;
+  margin: 10px auto;
+}
+
+#page-header {
+  height: 200px;
+  width: 100%;
+}
+
+#page-header img {
+  height: 100%;
+  float: left;
+  margin-right: 10px;
+}
+
+#page-header h1 {
+  color: #442718;
+  font-family: 'BioRhyme', serif;
+}
+
+#page-header #banner-top-text {
+  font-weight: 800;
+  font-size: 2em;
+  display: block;
+}
+
+#page-header #banner-bottom-text {
+  font-weight: 300;
+  font-size: 1.25em;
+  line-height: 0.5em;
+  display: block;
+}
