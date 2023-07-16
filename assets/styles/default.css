@@ -14,11 +14,11 @@ html {
 }
 
 html, body {
-  height: 100%;
+  height: 100vh;
 }
 
 body {
-  line-height: 1.5;
+  font: 1rem/1.5 Tahoma, Arial, sans-serif;
 }
 
 img {
@@ -33,4 +33,17 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
+ul, li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo span {
+font-family:  'BioRhyme';
+}
 /*---- END CSS DEFAULTS ----*/
