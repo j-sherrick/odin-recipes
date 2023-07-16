@@ -6,12 +6,11 @@ header {
   height: 4rem;
 }
 
-header .container {
+.container {
   width: 85rem;
-  height: 100%;
   display: flex;
+  flex-wrap: wrap;
   gap:  2.3rem;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -37,9 +36,26 @@ header .container {
   font-size: 1.2rem;
 }
 
-.main {
-  max-width: 85rem;
+main {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  max-width: 85rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap:  2.3rem;
+}
+
+.recipe-card {
+  display: flex;
+  flex: 0 1 325px;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
